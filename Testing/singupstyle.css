@@ -48,15 +48,15 @@ input[type=email]:focus::placeholder, input[type=password]:focus::placeholder, i
 
 body {
   font-family: Arial, sans-serif;
-  background-color: var(--midnight-2);
+  background: linear-gradient(to bottom, #000f39, #303b4e);
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: auto;
+  overflow: hidden;
   padding: 20px;
   box-sizing: border-box;
-  flex-direction: column;  /* add this line */
+  flex-direction: column;
 }
 
 form {
@@ -68,6 +68,8 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 60px;
+  margin-top: -20px;
 }
 
 form input[type="email"], form input[type="password"], form input[type="text"], form input[type="tel"] {
@@ -94,7 +96,7 @@ form input[type="submit"] {
 }
 
 .logo-container {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .logo-container img {
